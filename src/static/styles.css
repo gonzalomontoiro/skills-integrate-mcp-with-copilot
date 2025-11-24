@@ -8,11 +8,11 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #222;
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #f7f8fa;
 }
 
 header {
@@ -20,7 +20,7 @@ header {
   padding: 20px 0;
   margin-bottom: 30px;
   background-color: #1a237e;
-  color: white;
+  color: #fff;
   border-radius: 5px;
 }
 
@@ -42,10 +42,10 @@ main {
 }
 
 section {
-  background-color: white;
+  background-color: #fff;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
   width: 100%;
   max-width: 500px;
 }
@@ -62,12 +62,12 @@ section h3 {
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: #f5f7fa;
 }
 
 .activity-card h4 {
   margin-bottom: 10px;
-  color: #0066cc;
+  color: #1976d2;
 }
 
 .activity-card p {
@@ -83,7 +83,7 @@ section h3 {
 
 .participants-section h5 {
   margin-bottom: 8px;
-  color: #1a237e;
+  color: #1976d2;
   font-size: 16px;
 }
 
@@ -122,7 +122,7 @@ section h3 {
 }
 
 .delete-btn:hover {
-  background-color: #ffebee;
+  background-color: #fbe9e7;
 }
 
 .participants-section p {
@@ -138,6 +138,7 @@ section h3 {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
+  color: #222;
 }
 
 .form-group input,
@@ -150,8 +151,8 @@ section h3 {
 }
 
 button {
-  background-color: #1a237e;
-  color: white;
+  background-color: #1976d2;
+  color: #fff;
   border: none;
   padding: 10px 15px;
   font-size: 16px;
@@ -161,7 +162,7 @@ button {
 }
 
 button:hover {
-  background-color: #3949ab;
+  background-color: #1565c0;
 }
 
 .message {
@@ -196,5 +197,5 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 20px;
-  color: #666;
+  color: #888;
 }
